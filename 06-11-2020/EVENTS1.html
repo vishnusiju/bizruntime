@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div{
+                width: 100px;
+                height: 100px;
+                border: 1px solid black;
+                margin: 30px;
+                float: left;
+                padding: 30px;
+                text-align: center;
+                background-color: lightgray;
+            }
+            .demo{
+                width: 100px;
+                height: 100px;
+                margin: 50px;
+            }
+        </style>
+    </head>
+    
+    <select id="mySelect" onchange="myFunction()">
+        <option value="Audi">Audi</option>
+        <option value="BMW">BMW</option>
+        <option value="Mercedes">Mercedes</option>
+        <option value="Volvo">Volvo</option>
+      </select>
+<body>
+
+<h1 id="demo">Mouse over EVENTS</h1>
+<div onmousemove="myMoveFunction()">
+    <p>onmousemove: <br> <span id="demo">Mouse over me!</span></p>
+</div>
+
+<script>
+var x = 0;
+var y = 0;
+var z = 0;  
+document.getElementById("test").onmouseover = function() {mouseOver()};//onmouse over
+document.getElementById("test").onmouseout = function() {mouseOut()};//on mouse out
+
+function mouseOver() {
+  document.getElementById("test").style.color = "red";//this is the functon1 mouseover
+}
+
+function mouseOut() {
+  document.getElementById("test").style.color = "green";//this is the function2 mouseover
+}
+
+
+function myMoveFunction() {
+  document.getElementById("demo").innerHTML = z+=1;   //it will count mouse movement
+}
+
+function myFunction() {
+  var x = document.getElementById("mySelect").value;
+  document.getElementById("demo").innerHTML = "You selected: " + x;
+}
+</script>
+
+</body>
+</html>

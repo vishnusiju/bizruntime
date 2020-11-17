@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+            /*There are 3 ways to create objects.
+            1.By object literal
+            2.By creating instance of Object directly (using new keyword)
+            3.By using an object constructor (using new keyword)*/
+
+            //syntax
+            //object={property1:value1,property2:value2,propertyN:valueN}
+            
+            //literal
+            emp={id:102,name:"Shyam Kumar",salary:40000}  
+            document.write(emp.id+" "+emp.name+" "+emp.salary+"<br>");  
+        </script>
+
+        <script>
+            //By creating instance of Object directly
+            var emp =new Object();
+            emp.id = 101;
+            emp.name ="vishnu";
+            emp.salary = 300000;
+            document.write(emp.id+" "+emp.name+" "+emp.salary+"<br>");
+             
+        </script>
+
+        <script>
+            //by using an object constructors
+            function emp(id,name,salary)
+            {
+                this.id =id;
+                this.name =name;
+                this.salary =salary;
+            }
+            e= new emp(100, "vishnu", 2000);
+            document.write(e.id+" "+e.name+" "+e.salary+"<br>");
+        </script>
+
+        <script>
+            //prototype
+            //javascript is a prototype based language to facilitate the object to aquare properties and features fron other.
+            //syntax--ClassName.prototype.methodName
+            function Employee(firstName,lastName)
+            {
+                this.firstName = firstName;
+                this.lastName = lastName;
+            }
+            Employee.prototype.fullName = function()
+            {
+                return this.firstName+" "+this.lastName;
+            }
+            var Employee1 = new Employee("vishnu", "s");
+            var Employee2 = new Employee("vis", "s");
+            document.writeln(Employee1.fullName()+"<br>");
+            document.writeln(Employee2.fullName());
+        </script>
+    </body>
+</html>

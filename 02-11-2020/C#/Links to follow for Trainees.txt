@@ -1,0 +1,279 @@
+
+C# basics
+
+Book:  a.  http://file.allitebooks.com/20150511/C-%20Essentials,%202nd%20Edition.pdf
+           b. http://file.allitebooks.com/20190505/Csharp.in.Depth.4th.Edition.pdf
+MSDN documentation:   https://docs.microsoft.com/en-us/dotnet/architecture/
+https://docs.microsoft.com/en-us/dotnet/csharp/
+
+
+HTML
+http://www.allitebooks.org/introduction-to-html-css/
+http://file.allitebooks.com/20151210/HTML5%20CSS3%20For%20The%20Real%20World,%202%20Edition.pdf
+
+Javascript:
+     http://file.allitebooks.com/20150513/Speaking%20JavaScript.pdf
+
+C# coding style:
+     https://github.com/ktaranov/naming-convention/blob/master/C%23%20Coding%20Standards%20and%20Naming%20Conventions.md
+
+HTML:
+
+https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model
+https://developer.mozilla.org/en-US/docs/Web/API/Websockets_API
+https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API
+https://developer.mozilla.org/en-US/docs/Web/API/Storage_API
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+
+
+Javascript:
+
+https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions
+https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events
+https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON
+https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous
+https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Introduction
+https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Manipulating_documents
+https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Client-side_storage
+
+javascript webworker:
+    https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers
+
+Javascript websocket:
+    https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API/Writing_WebSocket_client_applications
+    https://blog.sessionstack.com/how-javascript-works-deep-dive-into-websockets-and-http-2-with-sse-how-to-pick-the-right-path-584e6b8e3bf7
+
+
+Logger:
+https://logging.apache.org/log4net/release/manual/introduction.html
+https://www.loggly.com/ultimate-guide/net-logging-basics/
+
+C# Basics:
+https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/
+
+
+Collection:
+https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/collections
+
+DateTime:
+https://docs.microsoft.com/en-us/dotnet/standard/datetime/index
+
+Parallel Programming
+https://docs.microsoft.com/en-us/dotnet/standard/parallel-programming/
+
+Threading
+https://docs.microsoft.com/en-us/dotnet/standard/threading/
+
+C# Mutlithreading and Parallel programming:
+    http://file.allitebooks.com/20150511/C-%20Multithreaded%20and%20Parallel%20Programming.pdf
+
+C# async, await Examples (Task)
+    https://www.dotnetperls.com/async
+
+Understanding Control Flow with Async and Await in C#:
+    https://www.pluralsight.com/guides/understand-control-flow-async-await
+
+Async Programming:
+https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/async/index
+
+Async in C#:
+    http://file.allitebooks.com/20150511/Async%20in%20C-%205.0.pdf
+    
+Concurrency in C#:
+    http://file.allitebooks.com/20150511/Concurrency%20in%20C-%20Cookbook.pdf
+    
+Your Ultimate async / await Tutorial in C#
+    https://www.codingame.com/playgrounds/4240/your-ultimate-async-await-tutorial-in-c/introduction
+
+
+
+CSS: 
+    https://developer.mozilla.org/en-US/docs/Learn/CSS
+     https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+Sass:
+     https://sass-lang.com/
+     https://www.youtube.com/watch?v=_a5j7KoflTs
+Bootstrap:
+    https://getbootstrap.com/docs/4.0/getting-started/introduction/
+
+LINQ:
+    https://docs.microsoft.com/en-us/dotnet/csharp/programming-    guide/concepts/linq/
+
+Linq basics:
+    https://www.c-sharpcorner.com/UploadFile/mahesh/best-linq-book/
+    
+LINQ ebook:
+    http://file.allitebooks.com/20150511/LINQ%20Quickly.pdf
+    
+    
+Ajax
+   https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX
+
+Ajax book:
+http://file.allitebooks.com/20151205/Ajax%20-%20A%20Beginner's%20Guide.pdf
+
+
+
+File I/O  :
+https://docs.microsoft.com/en-us/dotnet/api/system.io?view=netframework-4.8
+
+Socket
+https://docs.microsoft.com/en-us/dotnet/framework/network-programming/sockets
+https://docs.microsoft.com/en-us/dotnet/api/system.net.sockets?view=netframework-4.8
+https://www.winsocketdotnetworkprogramming.com/clientserversocketnetworkcommunication8chap.html (only c#)
+http://csharp.net-informations.com/communications/csharp-multi-threaded-server-socket.htm
+http://csharp.net-informations.com/communications/csharp-multi-threaded-client-socket.htm
+http://csharp.net-informations.com/communications/csharp-chat-server.htm
+http://csharp.net-informations.com/communications/csharp-chat-server-programming.htm
+http://csharp.net-informations.com/communications/csharp-chat-client.htm
+
+
+Typescript:
+https://www.typescriptlang.org/docs/home.html
+
+
+Newtonsoft json:( https://www.newtonsoft.com/json/help/html/Introduction.htm)
+	* 
+ Introduction
+	* 
+ Serializing and Deserializing JSON
+	* 
+LINQ TO JSON
+	* 
+Samples:
+
+
+              *    Serializing JSON
+              *    LINQ TO JSON
+              *    JSON PATH
+
+RxJS:
+     https://rxjs-dev.firebaseapp.com/guide/overview
+        Observables
+        Operators
+            ** Creation Operators
+            ** Join Creation Operators
+            ** Transformation Operators
+            ** Filtering Operators
+            ** Join Operators
+            ** Multicasting Operators
+            ** Error Handling Operators
+            ** Utility Operators
+            ** Conditional and Boolean Operators
+            ** Mathematical and Aggregate Operators
+        Subscription
+        Subject
+        Scheduler
+
+      https://www.learnrxjs.io/
+      https://reactive.how/
+     
+   https://itnext.io/javascript-promises-vs-rxjs-observables-de5309583ca2
+
+SQL (Microsoft SQL SERVER)
+    http://www.sqlservertutorial.net/#
+        Getting Started with SQL Server
+        SQL Server Basics
+        SQL Server Views
+        SQL Server Indexes
+        SQL Server Stored Procedures
+        SQL Server User-defined Functions
+        SQL Server Triggers
+        SQL Server Aggregate Functions
+        SQL Server Date Functions            
+        SQL Server String Functions
+        SQL Server System Functions
+        SQL Server Window Functions
+
+ADO.NET
+
+https://csharp-station.com/Tutorial/AdoDotNet/Lesson01
+https://csharp-station.com/Tutorial/AdoDotNet/Lesson02
+https://csharp-station.com/Tutorial/AdoDotNet/Lesson03
+https://csharp-station.com/Tutorial/AdoDotNet/Lesson04
+https://csharp-station.com/Tutorial/AdoDotNet/Lesson05
+https://csharp-station.com/Tutorial/AdoDotNet/Lesson06
+https://csharp-station.com/Tutorial/AdoDotNet/Lesson07
+
+https://www.youtube.com/playlist?list=PL6n9fhu94yhX5dzHunAI2t4kE0kOuv4D7    
+https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/retrieving-and-modifying-data
+        Connecting to a Data Source
+        Connection Strings
+        Connection Pooling
+        Commands and Parameters
+        DataAdapters and DataReaders
+        Transactions and Concurrency
+        Retrieving Identity or Autonumber Values
+        Retrieving Binary Data
+        Modifying Data with Stored Procedures
+        Retrieving Database Schema Information
+        DbProviderFactories
+        Data Tracing in ADO.NET
+        Performance Counters
+        Asynchronous Programming
+        SqlClient Streaming Support
+
+https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/dataset-datatable-dataview/
+
+
+Example:
+    1. (practice this while learning asp.net and asp.net core)
+        https://www.c-sharpcorner.com/UploadFile/francissvk/crud-operations-in-Asp-Net-mvc-using-ado-net/
+        https://www.c-sharpcorner.com/article/crud-operation-with-asp-net-core-mvc-using-visual-studio-code-and-ado-net/
+        https://www.c-sharpcorner.com/article/crud-operation-with-asp-net-core-mvc-web-app-using-ado-net/
+
+    2. (practice this while learning asp.net and asp.net core)
+        https://www.tutlane.com/tutorial/aspnet-mvc/ado-net-crud-operations-insert-update-delete-in-asp-net-mvc-4-example
+
+
+ASP.NET WEB APP AND WEB API
+
+     Asp.net core
+    https://docs.microsoft.com/en-us/aspnet/core/?view=aspnetcore-3.1
+    https://docs.microsoft.com/en-us/aspnet/core/fundamentals/choose-aspnet-framework?view=aspnetcore-3.1    https://docs.microsoft.com/en-us/dotnet/standard/choosing-core-framework-server?toc=%2Faspnet%2Fcore%2Ftoc.json&bc=%2Faspnet%2Fcore%2Fbreadcrumb%2Ftoc.json&view=aspnetcore-3.1
+    
+    Book:
+
+    http://file.allitebooks.com/20170709/Building%20Web%20Applications%20with%20Visual%20Studio%202017.pdf
+
+ASP.NET MVC    
+        1. https://dotnet.microsoft.com/apps/aspnet/apis
+        2. https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/?view=aspnetcore-3.1
+        (use ado.net instead of entity framework)    
+        3. https://docs.microsoft.com/en-us/aspnet/core/mvc/overview?view=aspnetcore-3.1
+        4. https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/actions?view=aspnetcore-3.1
+        5. https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/routing?view=aspnetcore-3.1
+        6. https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/dependency-injection?view=aspnetcore-3.1
+        7. https://docs.microsoft.com/en-us/aspnet/core/client-side/spa/angular?view=aspnetcore-3.1&tabs=visual-studio
+        8. https://docs.microsoft.com/en-us/aspnet/core/fundamentals/app-state?view=aspnetcore-3.1
+
+ASP.NET MVC        
+
+        https://docs.microsoft.com/en-us/aspnet/mvc/overview/getting-started/
+
+
+
+
+
+Angular
+----------------
+
+=> https://angular.io/docs
+
+=> https://codecraft.tv/courses/angular/quickstart/overview/
+
+=> course:
+    1.https://angular-university.io/course/getting-started-with-angular2
+    2. https://angular-university.io/course/angular-course
+    3. https://angular-university.io/course/angular2-http
+    4. https://angular-university.io/course/rxjs-course
+    5. https://angular-university.io/course/angular2-forms
+    6. https://angular-university.io/course/angular2-routing
+    7. https://angular-university.io/course/angular2-routing
+
+
+
+
+examples:
+     https://github.com/IgniteUI/igniteui-angular/blob/ab8479f0b48912f555f7ab7fbb2c0fd37c6aed4d/projects/igniteui-angular/src/lib/directives/mask/mask.directive.ts

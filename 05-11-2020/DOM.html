@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>DOM TITLE</title>
+        <script type="text/javascript">
+        function buttonClick()
+        {
+            //innerhtml is a property of the h1 dom object.
+            var str = document.getElementById("heading1");
+            alert(str);
+        }
+        function getallelement()
+        {
+            var demo = document.getElementsByTagName("p")
+        }
+        //buttonClick();
+        </script>
+    </head>
+    <body>
+        <section>
+            <button onclick="buttonClick()">Click now</button>
+            <h1 id="heading1">Random Text</h1>
+            <p>this is the paragraph tag  <a href="www.google.com">google page</a></p>
+        
+            <img src="2.jpg">
+        </section>
+    </body>
+</html>

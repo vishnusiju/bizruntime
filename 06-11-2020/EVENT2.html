@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  margin: 10px;
+  float: left;
+  padding: 30px;
+  text-align: center;
+  background-color: lightgray;
+}
+
+p {
+  background-color: white;
+}
+</style>
+</head>
+<body>
+
+<h1 id="demo" onmouseover="mouseOver()" onmouseout="mouseOut()">Mouse over me</h1>
+
+
+    <select id="mySelect" onchange="myFunction()">
+        <option value="Audi">Audi</option>
+        <option value="BMW">BMW</option>
+        <option value="Mercedes">Mercedes</option>
+        <option value="Volvo">Volvo</option>
+      </select>
+
+      <p id="democar"></p>
+    
+      <input type="text" name="" onkeydown="myFunctions()">
+
+      <input type="text" id="demo4" onkeypress="myFunction2()">
+
+      <button onclick="buttonClick()">Click now</button>
+      <button onclick="document.getElementById('click').innerHTML= Date()"></button>
+          <p id= "click"></p>
+      
+          <p>A function is triggered when the user is pressing a key in the input field.</p>
+      
+          
+<div onmousemove="myMoveFunction()">
+  <p>onmousemove: <br> <span id="demo1">Mouse over me!</span></p>
+</div>
+
+<div onmouseenter="myEnterFunction()">
+  <p>onmouseenter: <br> <span id="demo2">Mouse over me!</span></p>
+</div>
+
+<div onmouseover="myOverFunction()">
+  <p>onmouseover: <br> <span id="demo3">Mouse over me!</span></p>
+</div>
+
+
+<script>
+
+function myFunctions() {
+  alert("You pressed a key inside the input field");
+}
+
+function myFunction2() {
+  document.getElementById("demo4").style.backgroundColor = "green";
+}
+
+//onmousemove, onmouseenter, onmouseover.    
+var x = 0;
+var y = 0;
+var z = 0;
+//onmousemove
+function myMoveFunction() {
+  document.getElementById("demo1").innerHTML = z+=1;
+}
+//onmouseenter
+function myEnterFunction() {
+  document.getElementById("demo2").innerHTML = x+=1;
+}
+//onkouseover
+function myOverFunction() {
+  document.getElementById("demo3").innerHTML = y+=1;
+}
+
+//Onchange
+function myFunction() {
+  var x = document.getElementById("mySelect").value;
+  document.getElementById("democar").innerHTML = "You selected: " + x;
+}
+//onclick
+function buttonClick()
+{
+    // <!-- //innerhtml is a property of the h1 dom object. -->
+    var str = document.getElementById("click").innerHTML= Date();
+    alert(str);
+}
+//mousrover
+function mouseOver() {
+  document.getElementById("demo").style.color = "red";
+}
+//mouseout
+function mouseOut() {
+  document.getElementById("demo").style.color = "black";
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Diffrent Type Events</h2>
+
+<img src="image.gif" onerror="myFunction()">
+    
+<br>
+Enter your name: <input type="text" name="fname" id="fname" placeholder="Onblur Event" onblur="myFunction1()"><br>
+
+<br>
+Enter your input: <input type="text" id="myInput" placeholder="Oninput Event" oninput="myFunction2()"><p id="demo"></p>
+
+<br>
+Enter your input: <input type="text" placeholder="onselect" onselect="myFunction3()">
+
+<br><br>
+Enter the inputs: <input type="text"  value="Try to copy this text"oncopy="myFunction4()"><p id="test"></p>
+
+<br>
+Enter your inputs: <input type="text" value="Try to cut this text" oncut="myFunction5()"><p id="test1"></p>
+
+<br>
+Enter your inputs: <input type="text" value="Try to paste this text" onpaste="myFunction6()"><p id="test2"></p>
+
+<br>
+<form onreset="myFunction7()"> Enter your input: <input type="text" placeholder="Onreset Event"> <input type="reset"></form>
+
+<br><br>
+<form onsubmit="myFunction8()">Enter your input: <input type="text" placeholder="onsubmit"> <input type="submit"></form>
+
+<br><br>
+
+<script>
+
+// onerror
+function myFunction() {
+  alert("The image could not be loaded.");
+}    
+// onblur events
+function myFunction1() {
+  var x = document.getElementById("fname");
+  x.value = x.value.toUpperCase();
+}
+
+// oninput
+function myFunction2() {
+  var x = document.getElementById("myInput").value;
+  document.getElementById("demo").innerHTML = "You wrote: " + x;
+}
+
+// onselect
+function myFunction3()
+{
+    alert("The form selected")
+}
+
+// oncopy
+function myFunction4() {
+  document.getElementById("test").innerHTML = "You copied text!"
+}
+
+// oncut
+function myFunction5() {
+    document.getElementById("test1").innerHTML = "You cut the text"
+}
+
+// on paste
+function myFunction6() {
+    document.getElementById("test2").innerHTML = "You pasted the text"
+}
+
+// onreset
+function myFunction7() {
+    alert("The form reseted")
+}
+
+// onsubmit
+function myFunction8()
+{
+    alert("The form submited")
+}
+
+
+
+
+
+</script>
+
+</body>
+</html>
